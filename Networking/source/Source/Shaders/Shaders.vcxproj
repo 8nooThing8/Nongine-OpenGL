@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Bin\Assets\Shaders\Includes\AnimationBuffer.hlsli" />
+    <None Include="..\..\Bin\Assets\Shaders\Includes\BRDF_Functions.hlsli" />
+    <None Include="..\..\Bin\Assets\Shaders\Includes\ColorFunctions.hlsli" />
+    <None Include="..\..\Bin\Assets\Shaders\Includes\DebugBuffer.hlsli" />
+    <None Include="..\..\Bin\Assets\Shaders\Includes\Defaultconstant.hlsli" />
+    <None Include="..\..\Bin\Assets\Shaders\Includes\DefaultShaderIncludes.hlsli" />
+    <None Include="..\..\Bin\Assets\Shaders\Includes\Defines.hlsli" />
+    <None Include="..\..\Bin\Assets\Shaders\Includes\FrameBuffer.hlsli" />
+    <None Include="..\..\Bin\Assets\Shaders\Includes\LightBuffer.hlsli" />
+    <None Include="..\..\Bin\Assets\Shaders\Includes\ObjectBuffer.hlsli" />
+    <None Include="..\..\Bin\Assets\Shaders\Includes\Particle.hlsli" />
+    <None Include="..\..\Bin\Assets\Shaders\Includes\ParticleBuffer.hlsli" />
+    <None Include="..\..\Bin\Assets\Shaders\Includes\PBLCalculations.hlsli" />
+    <None Include="..\..\Bin\Assets\Shaders\Includes\PostProcessBuffer.hlsli" />
+    <None Include="..\..\Bin\Assets\Shaders\Includes\PostProcessingFunctions.hlsli" />
+    <None Include="..\..\Bin\Assets\Shaders\Includes\Sprite.hlsli" />
+    <None Include="..\..\Bin\Assets\Shaders\Includes\SpriteEditorBuffer.hlsli" />
+    <None Include="..\..\Bin\Assets\Shaders\Includes\SSAOBuffer.hlsli" />
+    <None Include="..\..\Bin\Assets\Shaders\Includes\Tonemap.hlsli" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Bin\Assets\Shaders\Animated_VS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\Bloom_PS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\brdfLUT_PS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\Default_VS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\DefferedFullscreen_PS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\Deffered_PS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\DownSample_PS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\GaussianBlurHorizontal_PS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\GaussianBlurVertical_PS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\Particle_GS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\Particle_PS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\Particle_VS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\PBL_Lit_PS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\Red_PS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\Red_Sprite_PS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\ReflectionProbe_PS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\ReWrite3D_PS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\ReWrite_PS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\Simple_Lit_PS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\Skybox_PS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\Skybox_VS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\Sprite_EditorShader_PS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\Sprite_EditorShader_VS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\Sprite_UnLit_PS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\Sprite_VS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\SSAO.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\ToneMapping_PS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\UnLit_PS.hlsl" />
+    <FxCompile Include="..\..\Bin\Assets\Shaders\UpSample_PS.hlsl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{006ba501-81d7-42c0-87e9-84fa6efe838f}</ProjectGuid>
+    <RootNamespace>Shaders</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PreBuildEventUseInBuild>false</PreBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>Default</LanguageStandard>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

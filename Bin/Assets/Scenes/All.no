@@ -1,0 +1,4032 @@
+{
+    "name": "Empty Scene",
+    "Gameobjects": {
+        "Object": {
+            "name": "Directional light",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    100.0,
+                    -115.0
+                ],
+                "Rotation": [
+                    0.7853981852531433,
+                    -0.7853981852531433,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Components": {
+                "DirectionalLight": {
+                    "Intensity": 1.0,
+                    "Color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/IcoSphere.fbx",
+                    "Pixel shader": "Assets/Shaders/UnLit_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "",
+                    "Normal texture": "",
+                    "Roughness texture": "",
+                    "Metallic texture": "",
+                    "AO texture": "",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                }
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    90.0,
+                    590.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    30.0,
+                    500.0,
+                    60.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    500.0,
+                    60.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    90.0,
+                    500.0,
+                    90.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    560.0,
+                    60.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Particle_Chestssss",
+            "Transform": {
+                "Position": [
+                    -97.0,
+                    -45.0,
+                    301.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/SM_Chest.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "MeshCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 0
+                    },
+                    "Mesh": "Assets/Models/SM_Chest.fbx"
+                }
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    90.0,
+                    560.0,
+                    30.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    60.0,
+                    500.0,
+                    60.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "TestCube",
+            "Transform": {
+                "Position": [
+                    -150.0,
+                    75.0,
+                    -180.0
+                ],
+                "Rotation": [
+                    -1.5707963705062866,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/SM_Color_Checker.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/T_Color_Checker_C.dds",
+                    "Normal texture": "Assets/Textures/T_Color_Checker_N.dds",
+                    "Roughness texture": "Assets/Textures/T_Color_Checker_M.dds",
+                    "Metallic texture": "Assets/Textures/T_Color_Checker_M.dds",
+                    "AO texture": "Assets/Textures/T_Color_Checker_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                }
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    60.0,
+                    500.0,
+                    30.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    500.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    530.0,
+                    30.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    90.0,
+                    530.0,
+                    60.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    30.0,
+                    530.0,
+                    90.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    500.0,
+                    30.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    500.0,
+                    90.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    530.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    530.0,
+                    60.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    530.0,
+                    90.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    60.0,
+                    560.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    560.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    60.0,
+                    590.0,
+                    30.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    560.0,
+                    30.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    560.0,
+                    90.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    590.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    590.0,
+                    30.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    590.0,
+                    60.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    590.0,
+                    90.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    30.0,
+                    500.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    30.0,
+                    500.0,
+                    30.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    90.0,
+                    530.0,
+                    30.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    30.0,
+                    590.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    30.0,
+                    560.0,
+                    60.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    30.0,
+                    530.0,
+                    30.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    30.0,
+                    500.0,
+                    90.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    60.0,
+                    560.0,
+                    30.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    30.0,
+                    530.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    90.0,
+                    500.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    30.0,
+                    530.0,
+                    60.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    30.0,
+                    560.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    30.0,
+                    560.0,
+                    30.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    60.0,
+                    500.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    30.0,
+                    560.0,
+                    90.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    60.0,
+                    560.0,
+                    60.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    60.0,
+                    530.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    30.0,
+                    590.0,
+                    30.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    30.0,
+                    590.0,
+                    60.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    60.0,
+                    500.0,
+                    90.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    90.0,
+                    530.0,
+                    90.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    30.0,
+                    590.0,
+                    90.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    60.0,
+                    530.0,
+                    30.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    90.0,
+                    560.0,
+                    60.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    60.0,
+                    530.0,
+                    60.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    60.0,
+                    530.0,
+                    90.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    60.0,
+                    560.0,
+                    90.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    60.0,
+                    590.0,
+                    90.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    60.0,
+                    590.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    60.0,
+                    590.0,
+                    60.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    90.0,
+                    500.0,
+                    30.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    90.0,
+                    500.0,
+                    60.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    90.0,
+                    530.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    90.0,
+                    560.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    90.0,
+                    560.0,
+                    90.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    90.0,
+                    590.0,
+                    30.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    90.0,
+                    590.0,
+                    60.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "Shaman",
+            "Transform": {
+                "Position": [
+                    90.0,
+                    590.0,
+                    90.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "Assets/Textures/Chest_C.dds",
+                    "Normal texture": "Assets/Textures/Chest_N.dds",
+                    "Roughness texture": "Assets/Textures/Chest_M.dds",
+                    "Metallic texture": "Assets/Textures/Chest_M.dds",
+                    "AO texture": "Assets/Textures/Chest_M.dds",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                },
+                "RigidBody": {},
+                "NetworkTransform": {}
+            }
+        },
+        "Object": {
+            "name": "House",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/House.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "",
+                    "Normal texture": "",
+                    "Roughness texture": "",
+                    "Metallic texture": "",
+                    "AO texture": "",
+                    "Albedo": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "MeshCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 0
+                    },
+                    "Mesh": "Assets/Models/House.fbx"
+                }
+            }
+        },
+        "Object": {
+            "name": "House boolean",
+            "Transform": {
+                "Position": [
+                    500.0,
+                    0.0,
+                    500.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Components": {
+                "MeshCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 0
+                    },
+                    "Mesh": "Assets/Models/Shaman.fbx"
+                },
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Shaman.fbx",
+                    "Pixel shader": "Assets/Shaders/PBL_Lit_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "",
+                    "Normal texture": "",
+                    "Roughness texture": "",
+                    "Metallic texture": "",
+                    "AO texture": "",
+                    "Albedo": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.30000001192092896
+                    ]
+                }
+            }
+        },
+        "Object": {
+            "name": "Cube",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    -6.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    10000.0,
+                    1.0,
+                    10000.0
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Assets/Models/Cube.fbx",
+                    "Pixel shader": "Assets/Shaders/Deffered_PS.hlsl",
+                    "Vertex shader": "Assets/Shaders/Default_VS.hlsl",
+                    "Diffuse texture": "",
+                    "Normal texture": "",
+                    "Roughness texture": "",
+                    "Metallic texture": "",
+                    "AO texture": "",
+                    "Albedo": [
+                        0.30000001192092896,
+                        0.30000001192092896,
+                        0.30000001192092896,
+                        1.0
+                    ]
+                },
+                "BoxCollider": {
+                    "Collider": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "IsTrigger": false,
+                        "CollisionLayer": 1
+                    }
+                }
+            }
+        },
+        "Object": {
+            "name": "Sprite",
+            "Transform": {
+                "Position": [
+                    750.0,
+                    355.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    350.0,
+                    350.0,
+                    0.0
+                ]
+            },
+            "Components": {
+                "SpriteRenderer": {
+                    "Sprite": "Assets/Sprites/Folder.dds"
+                }
+            }
+        },
+        "Object": {
+            "name": "Trail system",
+            "Transform": {
+                "Position": [
+                    200.0,
+                    100.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    -1.5707963705062866
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Components": {
+                "TrailSystem": {}
+            }
+        },
+        "Object": {
+            "name": "Instance Render",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Components": {
+                "InstanceComponent": {}
+            }
+        }
+    }
+}

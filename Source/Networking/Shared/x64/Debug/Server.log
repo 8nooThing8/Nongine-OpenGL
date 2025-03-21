@@ -1,0 +1,2 @@
+﻿  Server.cpp
+D:\NonGine\Source\Networking\Server\Server.cpp(7,10): error C1083: Cannot open include file: '../Engine/tge/math/vector2.h': No such file or directory

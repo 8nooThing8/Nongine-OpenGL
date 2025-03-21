@@ -1,0 +1,13 @@
+{
+  "Texture": {
+    "diffuse": "Assets/Textures/Chest_C.dds",
+    "normal": "Assets/Textures/Chest_N.dds",
+    "material": "Assets/Textures/Chest_M.dds"
+  },
+  "Color": {
+    "r": 255,
+    "g": 255,
+    "b": 255,
+    "a": 255
+  }
+}

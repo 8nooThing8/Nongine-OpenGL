@@ -1,0 +1,54 @@
+{
+    "Gameobjects": {
+        "Object": {
+            "name": "Cube",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "Cube"
+                }
+            }
+        },
+        "Object": {
+            "name": "SDFTRMonster0001",
+            "Transform": {
+                "Position": [
+                    -12.300000190734863,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Components": {
+                "MeshRenderer": {
+                    "Mesh": "SDFTRMonster0001"
+                }
+            }
+        }
+    }
+}
